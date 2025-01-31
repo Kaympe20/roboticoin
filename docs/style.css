@@ -22,3 +22,16 @@ body {
     padding: 20px;
     border-radius: 0 3em 0 0;
 }
+
+a:link {
+    color: red;
+    transition: color 0.4s;
+}
+
+a:link:hover {
+    color: blue;
+}
+
+a:visited {
+    color: lightcoral;
+}
